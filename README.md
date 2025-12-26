@@ -50,7 +50,12 @@ To validate the pipeline, I executed several MITRE-mapped simulations:
 T1070.001 (Log Clearing): Detected via wevtutil and boosted to Level 11.
 
 T1078.003 (Persistence): Detected unauthorized admin creation and boosted to Level 12.
-
+```bash
+Technique Goal		    PowerShell Command				                  Wazuh Level
+T1070.001 Clear Logs  Invoke-AtomicTest T1070.001 -TestNumbers 1	11
+T1078.003 Add 	Admin Invoke-AtomicTest T1078.003 -TestNumbers 1	12
+T1562.001 Kill 	AV    Invoke-AtomicTest T1562.001 -TestNumbers 1	9
+```
 🚀 Installation & Setup
 Deployment: Place custom-gemini.py in /var/ossec/integrations/.
 
