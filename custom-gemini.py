@@ -70,7 +70,6 @@ try:
         log_debug("Active Response Mode: Reading STDIN...")
         stdin_data = sys.stdin.read().strip()
         if stdin_data:
-            # Active Response often wraps the alert in a "parameters" key
             raw_data = json.loads(stdin_data)
             alert_json = raw_data.get('parameters', {}).get('alert', raw_data)
         else:
