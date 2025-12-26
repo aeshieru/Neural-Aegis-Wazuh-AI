@@ -1,7 +1,7 @@
 🛡️ Neural Aegis: AI-Driven SOC Enrichment Framework
 Neural Aegis is a high-fidelity security automation engine that bridges the gap between raw SIEM detections and actionable incident response. By integrating Wazuh (SIEM/XDR) with Google Gemini 2.5 Flash, it transforms cryptic logs into clinical SOC analyses in real-time.
 
-![Attack Simulation](assets/demogif.gif)
+![Attack Simulation](assets/demovid.mp4)
 🧭 Project Philosophy: Forensic Curiosity & The "How"
 In modern cybersecurity, there is a comfortable trend toward becoming a "Dashboard Operator." It is easy to click a button and trust a vendor's "black box" logic to tell us if we are safe.
 
