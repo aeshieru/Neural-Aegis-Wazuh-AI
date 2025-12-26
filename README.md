@@ -61,13 +61,13 @@ Bash
 sudo chown root:wazuh /var/ossec/integrations/custom-gemini
 sudo chmod 750 /var/ossec/integrations/custom-gemini
 Configuration: Add the <integration> block to your ossec.conf and restart the Wazuh Manager.
-(  <integration>
+'''<integration>
     <name>custom-gemini</name>
     <level>5</level>
     <hook_url>WEBHOOK URL HERE</hook_url>
     <alert_format>json</alert_format>
   </integration>
-)
+'''
 📈 Future Roadmap
 VirusTotal Integration: Automated hash and IP reputation lookups.
 
